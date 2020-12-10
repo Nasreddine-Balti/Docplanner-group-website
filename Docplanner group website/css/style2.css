@@ -1,0 +1,3196 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+ 
+/*header*/ 
+
+header{
+    background-color:white ;
+    position:sticky;
+    top:0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px 50px 180px;
+    
+}
+
+.navbar .navbarlist li {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+
+
+.navbar .navbarlist  li a {
+    color:rgb(190, 190, 190);
+    font-size: 15px;
+    font-weight: 550;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+
+.navbar .navbarlist .departmentsli ul li {
+   display:flex;
+   flex-direction: column;
+   display: none;
+   text-align: left;
+   line-height: 40px;
+}
+
+.navbar .navbarlist .departmentsli:hover ul li {
+    display: list-item;
+    
+}
+ 
+/*section*/
+
+.bgimg {
+    background-image: url(../res/bg-top.jpg);
+    background-size: cover;
+    padding: 10px 10px 5px 30px;
+    width: 1350px;
+    margin-left: -10px;
+    
+    
+}
+
+.curecareer{
+    background-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    line-height: 27px;
+    padding: 20px 10px 40px 50px;
+    margin: 20px 720px 100px 150px;
+
+}
+
+.curecareer .curecareerheader{
+    color: #0edabe;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.curecareer .curecareerparagraph{
+    color: gray;   
+}
+
+.curecareer .curecareerbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-size: 12px;
+    padding: 15px 20px 15px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 15px 0 15px 0;
+}
+
+.searchdreamjob{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.searchdreamjob .searchdreamjobheader{
+    text-align: center;
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.searchdreamjob .searchdreamjobboxes{
+    margin: 30px 0 30px 0;
+}
+
+.searchdreamjob .searchdreamjobboxes .searchdreamjobboxes1{
+    display: inline;
+    display: flex;
+    justify-content: center;
+}
+
+.searchdreamjob .searchdreamjobboxes .searchdreamjobboxes2{
+    display: inline;
+    display: flex;
+    justify-content: center;
+}
+
+.Polandbox{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 30px 30px 0;
+    padding: 10px 50px 10px 50px;
+}
+
+.Polandbox .Polandboxheader{
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 30px;
+}
+
+
+
+.Polandbox .Polandboximg{
+    display: block;
+    margin:0 auto;
+
+}
+
+.Polandbox .Polandboxbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 30px 0 20px 0;
+}
+
+.Italybox{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 30px 30px 0;
+    padding: 10px 50px 10px 50px;
+}
+
+.Italybox .Italyboxheader{
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 30px;
+}
+
+
+
+.Italybox .Italyboximg{
+    display: block;
+    margin:0 auto;
+
+}
+
+.Italybox .Italyboxbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 30px 0 20px 0;
+}
+
+.Spainbox{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 30px 30px 0;
+    padding: 10px 50px 10px 50px;
+}
+
+.Spainbox .Spainboxheader{
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 30px;
+}
+
+.Spainbox .Spainboximg{
+    display: block;
+    margin:0 auto;
+
+}
+
+.Spainbox .Spainboxbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 30px 0 20px 0;
+}
+
+.Brazilbox{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 30px 30px 0;
+    padding: 10px 50px 10px 50px;
+}
+
+.Brazilbox .Brazilboxheader{
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 30px;
+}
+
+.Brazilbox .Brazilboximg{
+    display: block;
+    margin:0 auto;
+
+}
+
+.Brazilbox .Brazilboxbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 30px 0 20px 0;
+}
+
+.Mexicobox{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 30px 30px 0;
+    padding: 10px 50px 10px 50px;
+}
+
+.Mexicobox .Mexicoboxheader{
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 30px;
+}
+
+.Mexicobox .Mexicoboximg{
+    display: block;
+    margin:0 auto;
+
+}
+
+.Mexicobox .Mexicoboxbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 30px 0 20px 0;
+}
+
+.Turkeybox{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 30px 30px 0;
+    padding: 10px 50px 10px 50px;
+}
+
+.Turkeybox .Turkeyboxheader{
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 30px;
+}
+
+.Turkeybox .Turkeyboximg{
+    display: block;
+    margin:0 auto;
+
+}
+
+.Turkeybox .Turkeyboxbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 30px 0 20px 0;
+}
+
+
+.Togetheratdocplanner{
+    background-color: rgb(245, 245, 245);
+    margin: 20px -8px 20px -8px;
+    padding: 20px 100px 20px 100px;
+    
+
+}
+
+.Togetheratdocplanner .Togetherheader{
+    text-align: center;
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 50px;
+}
+
+.Togetheratdocplanner .Togethermedia .Togethervideo{
+    margin: -200px -70px 0 0px;
+    
+}
+
+.Togetheratdocplanner .Togethermedia .Togetherpic1{
+    margin: 0 10px 0 0;
+
+}
+
+.Togetheratdocplanner .Togethermedia .Togetherpic2{
+    margin: 0 0 -230px 0;
+   
+}
+
+.Togetheratdocplanner .Togethermedia .Togetherpic3{
+    margin: 0 0 0 78px;
+   
+}
+
+
+.Togetheratdocplanner .Togethermedia .Togethersummary{
+    background-color: white;
+    border-style: hidden;
+    padding: 20px 15px 25px 10px;
+    margin: -220px 400px 30px 330px;
+    
+}
+
+
+
+.Togetheratdocplanner .Togethermedia .Togethersummary .Togethersummaryparagraph{
+    text-align: center;
+    color: gray;
+    line-height: 25px;
+}
+
+.Togetheratdocplanner .Togethermedia .Togethersummary .instagram{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(245, 245, 245) ;
+    padding: 10px;
+    margin: 20px 130px 20px 130px;
+    border-radius: 5px;
+
+}
+
+.Togetheratdocplanner .Togethermedia .Togethersummary .instagram .instagrambutton{
+    background-color:rgb(245, 245, 245) ;
+    color: gray;
+    border-style: hidden;
+    margin-left: 5px;
+}
+
+.valuesperks .valuesperksheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 20px 20px 20px;
+    
+}
+
+.valuesperks .valuesperksheader .valuesperksheader1{
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.valuesperks .valuesperksheader .valuesperksheader2{
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.valuesperks .valuesperks1{
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 50px -80px 45px;
+}
+
+.valuesperks .valuesperks1 .value1{
+    padding: 20px 20px 0 20px;
+    margin: 0 60px 0 0;
+}
+
+.valuesperks .valuesperks1 .value1 .value1hp{
+    margin: -40px 0 0 50px;
+}
+
+.valuesperks .valuesperks1 .value1 .value1hp .value1header{
+    font-size: 15px;
+    color: rgb(56, 55, 55);
+}
+
+.valuesperks .valuesperks1 .value1 .value1hp .value1paragraph{
+    color: gray;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.valuesperks .valuesperks1 .value2{
+    padding: 20px;
+    margin: 0 100px 80px -50px;
+}
+
+.valuesperks .valuesperks1 .value2 .value2hp{
+    margin: -40px 0 60px 50px;
+}
+
+.valuesperks .valuesperks1 .value2 .value2hp .value2header{
+    font-size: 15px;
+    color: rgb(56, 55, 55);
+}
+
+.valuesperks .valuesperks1 .value2 .value2hp .value2paragraph{
+    color: gray;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.valuesperks .valuesperks1 .perk1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: hidden;
+    padding: 20px 15px 20px 20px;
+    margin: 20px 60px 80px 0;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.valuesperks .valuesperks1 .perk1 .perk1img{
+    margin: 5px 0 0 0; 
+    
+}
+
+.valuesperks .valuesperks1 .perk1 .perk1paragraph{
+   margin: -25px 0 20px 40px;
+   font-size: 13px;
+   line-height: 20px;
+   color: rgb(56, 55, 55);
+
+}
+
+.valuesperks .valuesperks2{
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 100px -80px 100px;
+    
+}
+
+.valuesperks .valuesperks2 .value3{
+    padding: 20px 10px 80px 10px;
+    margin: 0 0 -200px 0;
+}
+
+.valuesperks .valuesperks2 .value3 .value3hp{
+    margin: -40px 0 60px 50px;
+}
+
+.valuesperks .valuesperks2 .value3 .value3hp .value3header{
+    font-size: 15px;
+    color: rgb(56, 55, 55);
+}
+
+.valuesperks .valuesperks2 .value3 .value3hp .value3paragraph{
+    color: gray;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.valuesperks .valuesperks2 .value4{
+    padding: 20px;
+    margin: 0 0px 80px 50px;
+}
+
+.valuesperks .valuesperks2 .value4 .value4hp{
+    margin: -40px 0 60px 50px;
+}
+
+.valuesperks .valuesperks2 .value4 .value4hp .value4header{
+    font-size: 15px;
+    color: rgb(56, 55, 55);
+}
+
+.valuesperks .valuesperks2 .value4 .value4hp .value4paragraph{
+    color: gray;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.valuesperks .valuesperks2 .perk2{
+    border-style: hidden;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 55px 80px 0;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.valuesperks .valuesperks2 .perk2 .perk2img{
+    margin: 5px 0 0 0; 
+    
+}
+
+.valuesperks .valuesperks2 .perk2 .perk2paragraph{
+   margin: -25px 0 20px 40px;
+   font-size: 13px;
+   line-height: 20px;
+   color: rgb(56, 55, 55);
+
+}
+
+.valuesperks .valuesperks3{
+    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 100px -80px 100px;
+    
+}
+
+.valuesperks .valuesperks3 .value5{
+    padding: 20px 10px 80px 10px;
+    margin: 0 0 -200px 0;
+}
+
+.valuesperks .valuesperks3 .value5 .value5hp{
+    margin: -40px 0 60px 50px;
+}
+
+.valuesperks .valuesperks3 .value5 .value5hp .value5header{
+    font-size: 15px;
+    color: rgb(56, 55, 55);
+}
+
+.valuesperks .valuesperks3 .value5 .value5hp .value5paragraph{
+    color: gray;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.valuesperks .valuesperks3 .value6{
+    padding: 20px;
+    margin: 0 0px 80px 50px;
+}
+
+.valuesperks .valuesperks3 .value6 .value6hp{
+    margin: -40px 0 60px 50px;
+}
+
+.valuesperks .valuesperks3 .value6 .value6hp .value6header{
+    font-size: 15px;
+    color: rgb(56, 55, 55);
+}
+
+.valuesperks .valuesperks3 .value6 .value6hp .value6paragraph{
+    color: gray;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.valuesperks .valuesperks3 .perk3{
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 55px 80px 0;
+    background-color: white;
+    
+}
+
+.valuesperks .valuesperks3 .perk3 .perk3img{
+    margin: 5px 0 0 0; 
+    
+}
+
+.valuesperks .valuesperks3 .perk3 .perk3paragraph{
+   margin: -25px 0 20px 40px;
+   font-size: 13px;
+   line-height: 20px;
+   color: rgb(56, 55, 55);
+
+}
+
+.Docplannerpositions .docplannerpositionheader{
+    text-align: center;
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 80px;
+}
+
+
+.Docplannerpositions .options .locations{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 900px 10px 200px;
+    padding: 20px;
+}
+
+.Docplannerpositions .options .locations .locationsbutton{
+    border-style: hidden;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 20px 0 0;
+    width: 200px;
+}
+
+.Docplannerpositions .options .locations .locationsparagraph{
+    font-size: 15px;
+    color:gray;
+}
+
+.Docplannerpositions .options .departments{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 900px 10px 200px;
+    padding: 20px;
+}
+
+.Docplannerpositions .options .departments .departmentsbutton{
+    border-style: hidden;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 20px 0 0;
+    width: 200px;
+}
+
+.Docplannerpositions .options .departments .departmentsparagraph{
+    font-size: 15px;
+    color: gray;
+}
+
+.Docplannerpositions .positions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -300px 0 0 0;
+}
+
+.Docplannerpositions .positions .FinanceAdministration{
+    margin: 0 170px 20px 0; 
+}
+
+.Docplannerpositions .positions .FinanceAdministration .FinanceAdministrationheader{
+    font-size: 20px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    margin-left: 400px;
+
+}
+
+.Docplannerpositions .positions .FinanceAdministration .ManagerOperacyjny{
+    border-top-style: solid;
+    border-bottom-style: solid;  
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 400px;
+       
+}
+
+.Docplannerpositions .positions .FinanceAdministration .ManagerOperacyjny .ManagerOperacyjnyimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .FinanceAdministration .ManagerOperacyjny .ManagerOperacyjnypb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .FinanceAdministration .ManagerOperacyjny .ManagerOperacyjnyparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .FinanceAdministration .ManagerOperacyjny .ManagerOperacyjnybutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px -50px 20px 350px;
+    
+}
+
+
+.Docplannerpositions .positions .FinanceAdministration .AnalistadeContabilidadeJR{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 400px;
+       
+}
+
+.Docplannerpositions .positions .FinanceAdministration .AnalistadeContabilidadeJR 
+.AnalistadeContabilidadeJRimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .FinanceAdministration .AnalistadeContabilidadeJR
+.AnalistadeContabilidadeJRpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .FinanceAdministration .AnalistadeContabilidadeJR 
+.AnalistadeContabilidadeJRparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .FinanceAdministration .AnalistadeContabilidadeJR 
+.AnalistadeContabilidadeJRbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px -40px 20px 290px;
+    
+}
+
+.Docplannerpositions .positions .MarketingPR{
+    margin: 0 170px 20px 0; 
+}
+
+.Docplannerpositions .positions .MarketingPR .MarketingPRheader{
+    font-size: 20px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    margin-left: 480px;
+
+}
+
+.Docplannerpositions .positions .MarketingPR .ContentMarketingspecialist{
+    border-top-style: solid;
+    border-bottom-style: solid;  
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .MarketingPR .ContentMarketingspecialist .ContentMarketingspecialistimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .ContentMarketingspecialist .ContentMarketingspecialistpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .ContentMarketingspecialist .ContentMarketingspecialistparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .ContentMarketingspecialist .ContentMarketingspecialistbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 300px;
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .LeadGeneratorLeaderEnterprisechannel{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .MarketingPR .LeadGeneratorLeaderEnterprisechannel 
+.LeadGeneratorLeaderEnterprisechannelimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .LeadGeneratorLeaderEnterprisechannel 
+.LeadGeneratorLeaderEnterprisechannelpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .LeadGeneratorLeaderEnterprisechannel 
+.LeadGeneratorLeaderEnterprisechannelparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .LeadGeneratorLeaderEnterprisechannel
+.LeadGeneratorLeaderEnterprisechannelbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 10px 20px 300px;
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .InboundMarketingManager{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .MarketingPR .InboundMarketingManager .InboundMarketingManagerimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .InboundMarketingManager .InboundMarketingManagerpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .InboundMarketingManager .InboundMarketingManagerparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .InboundMarketingManager .InboundMarketingManagerbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 320px;
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .PerformanceMarketingSpecialist{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .MarketingPR .PerformanceMarketingSpecialist
+ .PerformanceMarketingSpecialistimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .PerformanceMarketingSpecialist
+ .PerformanceMarketingSpecialistpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .PerformanceMarketingSpecialist
+ .PerformanceMarketingSpecialistparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .MarketingPR .PerformanceMarketingSpecialist
+ .PerformanceMarketingSpecialistbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 300px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales{
+    margin: 0 170px 20px 0; 
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CustomerSuccessSalesheader{
+    font-size: 20px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    margin-left: 480px;
+
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .StagesettoreITRoma{
+    border-top-style: solid;
+    border-bottom-style: solid;  
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .StagesettoreITRoma .StagesettoreITRomaimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .StagesettoreITRoma .StagesettoreITRomapb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .StagesettoreITRoma .StagesettoreITRomaparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .StagesettoreITRoma .StagesettoreITRomabutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreCatania{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreCatania 
+.CommercialeB2CVenditoreCataniaimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreCatania
+ .CommercialeB2CVenditoreCataniapb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreCatania
+ .CommercialeB2CVenditoreCataniaparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreCatania
+ .CommercialeB2CVenditoreCataniabutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .VenditoreConsulenteCommercialeNapoli{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .VenditoreConsulenteCommercialeNapoli 
+.VenditoreConsulenteCommercialeNapoliimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .VenditoreConsulenteCommercialeNapoli
+ .VenditoreConsulenteCommercialeNapolipb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .VenditoreConsulenteCommercialeNapoli
+ .VenditoreConsulenteCommercialeNapoliparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .VenditoreConsulenteCommercialeNapoli
+ .VenditoreConsulenteCommercialeNapolibutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreBergamo{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreBergamo 
+.CommercialeB2CVenditoreBergamoimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreBergamo
+ .CommercialeB2CVenditoreBergamopb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreBergamo
+ .CommercialeB2CVenditoreBergamoparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreBergamo
+ .CommercialeB2CVenditoreBergamobutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreTorino{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreTorino 
+.CommercialeB2CVenditoreTorinoimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreTorino
+ .CommercialeB2CVenditoreTorinopb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreTorino
+ .CommercialeB2CVenditoreTorinoparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreTorino
+ .CommercialeB2CVenditoreTorinobutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ConsulenteCommercialesettoreClinicheNapoli{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ConsulenteCommercialesettoreClinicheNapoli 
+.ConsulenteCommercialesettoreClinicheNapoliimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ConsulenteCommercialesettoreClinicheNapoli
+ .ConsulenteCommercialesettoreClinicheNapolipb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ConsulenteCommercialesettoreClinicheNapoli
+ .ConsulenteCommercialesettoreClinicheNapoliparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ConsulenteCommercialesettoreClinicheNapoli
+ .ConsulenteCommercialesettoreClinicheNapolibutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreBari{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreBari 
+.CommercialeB2CVenditoreBariimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreBari
+ .CommercialeB2CVenditoreBaripb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreBari
+ .CommercialeB2CVenditoreBariparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditoreBari
+ .CommercialeB2CVenditoreBaributton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditorePalermo{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditorePalermo 
+.CommercialeB2CVenditorePalermoimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditorePalermo
+ .CommercialeB2CVenditorePalermopb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditorePalermo
+ .CommercialeB2CVenditorePalermoparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CommercialeB2CVenditorePalermo
+ .CommercialeB2CVenditorePalermobutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .RetentionSpecialistRoma{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .RetentionSpecialistRoma 
+.RetentionSpecialistRomaimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .RetentionSpecialistRoma
+ .RetentionSpecialistRomapb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .RetentionSpecialistRoma
+ .RetentionSpecialistRomaparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .RetentionSpecialistRoma
+ .RetentionSpecialistRomabutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .InsideSalesB2CCommercialeinternoRoma{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .InsideSalesB2CCommercialeinternoRoma 
+.InsideSalesB2CCommercialeinternoRomaimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .InsideSalesB2CCommercialeinternoRoma
+ .InsideSalesB2CCommercialeinternoRomapb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .InsideSalesB2CCommercialeinternoRoma
+ .InsideSalesB2CCommercialeinternoRomaparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .InsideSalesB2CCommercialeinternoRoma
+ .InsideSalesB2CCommercialeinternoRomabutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManager{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManager 
+.AccountManagerimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManager
+ .AccountManagerpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManager
+ .AccountManagerparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManager
+ .AccountManagerbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 390px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManagerPoznań{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManagerPoznań
+.AccountManagerPoznańimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManagerPoznań
+ .AccountManagerPoznańpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManagerPoznań
+ .AccountManagerPoznańparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManagerPoznań
+ .AccountManagerPoznańbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 390px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManagerKatowice{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManagerKatowice
+.AccountManagerKatowiceimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManagerKatowice
+ .AccountManagerKatowicepb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManagerKatowice
+ .AccountManagerKatowiceparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .AccountManagerKatowice
+ .AccountManagerKatowicebutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 390px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .OpiekunUżytkownika{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .OpiekunUżytkownika
+.OpiekunUżytkownikaimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .OpiekunUżytkownika
+ .OpiekunUżytkownikapb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .OpiekunUżytkownika
+ .OpiekunUżytkownikaparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .OpiekunUżytkownika
+ .OpiekunUżytkownikabutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 390px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .EnterpriseCustomerSuccessSpecialist{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .EnterpriseCustomerSuccessSpecialist
+.EnterpriseCustomerSuccessSpecialistimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .EnterpriseCustomerSuccessSpecialist
+ .EnterpriseCustomerSuccessSpecialistpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .EnterpriseCustomerSuccessSpecialist
+ .EnterpriseCustomerSuccessSpecialistparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .EnterpriseCustomerSuccessSpecialist
+ .EnterpriseCustomerSuccessSpecialistbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 400px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .SalesExecutive{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .SalesExecutive
+.SalesExecutiveimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .SalesExecutive
+ .SalesExecutivepb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .SalesExecutive
+ .SalesExecutiveparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .SalesExecutive
+ .SalesExecutivebutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 400px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ProductResearcherUX{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ProductResearcherUX
+.ProductResearcherUXimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ProductResearcherUX
+ .ProductResearcherUXpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ProductResearcherUX
+ .ProductResearcherUXparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ProductResearcherUX
+ .ProductResearcherUXbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 380px;
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .HeadofGlobalSalesMarketplaceBrazil{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .HeadofGlobalSalesMarketplaceBrazil
+.HeadofGlobalSalesMarketplaceBrazilimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .HeadofGlobalSalesMarketplaceBrazil
+ .HeadofGlobalSalesMarketplaceBrazilpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .HeadofGlobalSalesMarketplaceBrazil
+ .HeadofGlobalSalesMarketplaceBrazilparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .HeadofGlobalSalesMarketplaceBrazil
+ .HeadofGlobalSalesMarketplaceBrazilbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 380px;
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CustomerSuccessCoordinator{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CustomerSuccessCoordinator
+.CustomerSuccessCoordinatorimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CustomerSuccessCoordinator
+ .CustomerSuccessCoordinatorpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CustomerSuccessCoordinator
+ .CustomerSuccessCoordinatorparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CustomerSuccessCoordinator
+ .CustomerSuccessCoordinatorbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 380px;
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ModeradordeContenidoAgenteValidador{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ModeradordeContenidoAgenteValidador
+.ModeradordeContenidoAgenteValidadorimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ModeradordeContenidoAgenteValidador
+ .ModeradordeContenidoAgenteValidadorpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ModeradordeContenidoAgenteValidador
+ .ModeradordeContenidoAgenteValidadorparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ModeradordeContenidoAgenteValidador
+ .ModeradordeContenidoAgenteValidadorbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 380px;
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ConsultorVendas{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ConsultorVendas
+.ConsultorVendasimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ConsultorVendas
+ .ConsultorVendaspb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ConsultorVendas
+ .ConsultorVendasparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .ConsultorVendas
+ .ConsultorVendasbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 380px;
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CustomerSuccessExecutiveEnterprise{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CustomerSuccessExecutiveEnterprise
+.CustomerSuccessExecutiveEnterpriseimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CustomerSuccessExecutiveEnterprise
+ .CustomerSuccessExecutiveEnterprisepb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CustomerSuccessExecutiveEnterprise
+ .CustomerSuccessExecutiveEnterpriseparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .CustomerSuccessExecutiveEnterprise
+ .CustomerSuccessExecutiveEnterprisebutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 380px;
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .Tele-SatışUzmanı{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .Tele-SatışUzmanı
+.Tele-SatışUzmanıimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .Tele-SatışUzmanı
+ .Tele-SatışUzmanıpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .Tele-SatışUzmanı
+ .Tele-SatışUzmanıparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .Tele-SatışUzmanı
+ .Tele-SatışUzmanıbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 400px;
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .MüşteriİlişkileriUzmanı{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .MüşteriİlişkileriUzmanı
+.MüşteriİlişkileriUzmanıimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .MüşteriİlişkileriUzmanı
+ .MüşteriİlişkileriUzmanıpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .MüşteriİlişkileriUzmanı
+ .MüşteriİlişkileriUzmanıparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .MüşteriİlişkileriUzmanı
+ .MüşteriİlişkileriUzmanıbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 400px;
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .SahaSatışSorumlusuİstanbul{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .SahaSatışSorumlusuİstanbul
+.SahaSatışSorumlusuİstanbulimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .SahaSatışSorumlusuİstanbul
+ .SahaSatışSorumlusuİstanbulpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .SahaSatışSorumlusuİstanbul
+ .SahaSatışSorumlusuİstanbulparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .CustomerSuccessSales .SahaSatışSorumlusuİstanbul
+ .SahaSatışSorumlusuİstanbulbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 400px;
+}
+
+.Docplannerpositions .positions .ITProductData{
+    margin: 0 170px 20px 0; 
+}
+
+.Docplannerpositions .positions .ITProductData .ITProductDataheader{
+    font-size: 20px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    margin-left: 480px;
+
+}
+
+.Docplannerpositions .positions .ITProductData .DevOpsSREEngineer{
+    border-top-style: solid;
+    border-bottom-style: solid;  
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .ITProductData .DevOpsSREEngineer .DevOpsSREEngineerimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .ITProductData .DevOpsSREEngineer .DevOpsSREEngineerpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .DevOpsSREEngineer .DevOpsSREEngineerparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .DevOpsSREEngineer .DevOpsSREEngineerbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .PHPDeveloper{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .ITProductData .PHPDeveloper .PHPDeveloperimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .ITProductData .PHPDeveloper .PHPDeveloperpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .PHPDeveloper .PHPDeveloperparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .PHPDeveloper .PHPDeveloperbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 400px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .FrontendDeveloper{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .ITProductData .FrontendDeveloper .FrontendDeveloperimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .ITProductData .FrontendDeveloper .FrontendDeveloperpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .FrontendDeveloper .FrontendDeveloperparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .FrontendDeveloper .FrontendDeveloperbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 400px;
+}
+
+.Docplannerpositions .positions .ITProductData .FrontendDeveloperremote{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .ITProductData .FrontendDeveloperremote .FrontendDeveloperremoteimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .ITProductData .FrontendDeveloperremote .FrontendDeveloperremotepb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .FrontendDeveloperremote .FrontendDeveloperremoteparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .FrontendDeveloperremote .FrontendDeveloperremotebutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 400px;
+}
+
+.Docplannerpositions .positions .ITProductData .StagistaHelpDeskIT{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .ITProductData .StagistaHelpDeskIT .StagistaHelpDeskITimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .ITProductData .StagistaHelpDeskIT .StagistaHelpDeskITpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .StagistaHelpDeskIT .StagistaHelpDeskITparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .StagistaHelpDeskIT .StagistaHelpDeskITbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 400px;
+}
+
+.Docplannerpositions .positions .ITProductData .ITProjectManagerSystemIntegration{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .ITProductData .ITProjectManagerSystemIntegration
+ .ITProjectManagerSystemIntegrationimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .ITProductData .ITProjectManagerSystemIntegration
+ .ITProjectManagerSystemIntegrationpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .ITProjectManagerSystemIntegration
+ .ITProjectManagerSystemIntegrationparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .ITProductData .ITProjectManagerSystemIntegration 
+.ITProjectManagerSystemIntegrationbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 400px;
+}
+
+.Docplannerpositions .positions .HRmore{
+    margin: 0 170px 20px 0; 
+}
+
+.Docplannerpositions .positions .HRmore .HRmoreheader{
+    font-size: 20px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    margin-left: 480px;
+
+}
+
+.Docplannerpositions .positions .HRmore .PeopleExperienceSpecialist{
+    border-top-style: solid;
+    border-bottom-style: solid;  
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .HRmore .PeopleExperienceSpecialist .PeopleExperienceSpecialistimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .HRmore .PeopleExperienceSpecialist .PeopleExperienceSpecialistpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .HRmore .PeopleExperienceSpecialist .PeopleExperienceSpecialistparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .HRmore .PeopleExperienceSpecialist .PeopleExperienceSpecialistbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+.Docplannerpositions .positions .HRmore .GlobalVPofPeopleExperienceTechDeputyCHRO{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .HRmore .GlobalVPofPeopleExperienceTechDeputyCHRO
+ .GlobalVPofPeopleExperienceTechDeputyCHROimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .HRmore .GlobalVPofPeopleExperienceTechDeputyCHRO
+ .GlobalVPofPeopleExperienceTechDeputyCHROpb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .HRmore .GlobalVPofPeopleExperienceTechDeputyCHRO
+ .GlobalVPofPeopleExperienceTechDeputyCHROparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .HRmore .GlobalVPofPeopleExperienceTechDeputyCHRO
+ .GlobalVPofPeopleExperienceTechDeputyCHRObutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;
+    
+}
+
+.Docplannerpositions .positions .HRmore .AnalistadeRecursosHumanos{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .HRmore .AnalistadeRecursosHumanos
+ .AnalistadeRecursosHumanosimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .HRmore .AnalistadeRecursosHumanos
+ .AnalistadeRecursosHumanospb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .HRmore .AnalistadeRecursosHumanos
+ .AnalistadeRecursosHumanosparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .HRmore .AnalistadeRecursosHumanos
+ .AnalistadeRecursosHumanosbutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;  
+}
+
+.Docplannerpositions .positions .HRmore .AnythingIsPossible{
+    border-bottom-style: solid;  
+    border-bottom-width: thin;
+    border-color: rgb(231, 231, 231);
+    padding: 40px 0 40px 0;
+    margin-left: 480px;
+       
+}
+
+.Docplannerpositions .positions .HRmore .AnythingIsPossible .AnythingIsPossibleimg{
+    margin: 0 0 -30px 0;
+    
+    
+}
+
+.Docplannerpositions .positions .HRmore .AnythingIsPossible .AnythingIsPossiblepb{
+    display: flex;
+    flex-direction: row;
+    margin: -50px 0 0 80px;
+    
+}
+
+.Docplannerpositions .positions .HRmore .AnythingIsPossible .AnythingIsPossibleparagraph{
+    font-size: 15px;
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    line-height: 25px;
+    
+}
+
+.Docplannerpositions .positions .HRmore .AnythingIsPossible .AnythingIsPossiblebutton{
+    background-color:rgb(245, 245, 245) ;
+    color: rgb(63, 62, 62);
+    border-style: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 0 20px 350px;  
+}
+
+.wemake{
+    background-color: rgb(245, 245, 245);
+    margin: 20px -8px 20px -8px;
+    padding: 20px 100px 20px 100px;
+    text-align: center;
+    color: rgb(85, 84, 84);
+    font-size: 25px;
+    font-weight: lighter;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 40px;
+}
+
+
+
+.marketingpr{
+    border-style:solid;
+    border-width: thin;
+    border-color: rgb(226, 226, 226);
+    line-height: 27px;
+    padding: 20px 25px 20px 40px ;
+    margin: 100px 720px 150px 160px;
+}
+
+.marketingpr .marketingprheader{
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.marketingpr .marketingprparagraph{
+    color: gray;
+}
+
+.marketingpr .marketingprbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-size: 12px;
+    padding: 15px 20px 15px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 15px 0 15px 0;
+}
+
+.marketingprroles .marketingprrolesheader{
+    text-align: center;
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.marketingprroles .marketingprrolesparagraph{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 200px 200px;
+    margin: 40px 0 150px 200px;
+}
+
+.marketingprroles .marketingprrolesparagraph .LeadGeneration{
+    line-height: 30px;
+}
+
+.marketingprroles .marketingprrolesparagraph .LeadGeneration .LeadGenerationheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.marketingprroles .marketingprrolesparagraph .LeadGeneration .LeadGenerationparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.marketingprroles .marketingprrolesparagraph .CustomerExperience{
+    line-height: 30px;
+}
+
+.marketingprroles .marketingprrolesparagraph .CustomerExperience .CustomerExperienceheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.marketingprroles .marketingprrolesparagraph .CustomerExperience .CustomerExperienceparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.marketingprroles .marketingprrolesparagraph .PR{
+    line-height: 30px;
+}
+
+.marketingprroles .marketingprrolesparagraph .PR .PRheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.marketingprroles .marketingprrolesparagraph .PR .PRparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.marketingprroles .marketingprrolesparagraph .PatientAcquisition{
+    line-height: 30px;
+}
+
+.marketingprroles .marketingprrolesparagraph .PatientAcquisition .PatientAcquisitionheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.marketingprroles .marketingprrolesparagraph .PatientAcquisition .PatientAcquisitionparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.Customer{
+    border-style:solid;
+    border-width: thin;
+    border-color: rgb(226, 226, 226);
+    line-height: 27px;
+    padding: 20px 25px 20px 40px ;
+    margin: 100px 720px 150px 160px;
+}
+
+.Customer .Customerheader{
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.Customer .Customerparagraph{
+    color: gray;
+}
+
+.Customer .Customerbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-size: 12px;
+    padding: 15px 20px 15px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 15px 0 15px 0;
+}
+
+.Customerroles .Customerrolesheader{
+    text-align: center;
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Customerroles .Customerrolesparagraph{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 250px 250px;
+    margin: 40px 0 150px 200px;
+}
+
+.Customerroles .Customerrolesparagraph .CustomerSuccess{
+    line-height: 30px;
+}
+
+.Customerroles .Customerrolesparagraph .CustomerSuccess .CustomerSuccessheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.Customerroles .Customerrolesparagraph .CustomerSuccess .CustomerSuccessparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.Customerroles .Customerrolesparagraph .Sales{
+    line-height: 30px;
+}
+
+.Customerroles .Customerrolesparagraph .Sales .Salesheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.Customerroles .Customerrolesparagraph .Sales .Salesparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.Customerroles .Customerrolesparagraph .UserCare{
+    line-height: 30px;
+}
+
+.Customerroles .Customerrolesparagraph .UserCare .UserCareheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.Customerroles .Customerrolesparagraph .UserCare .UserCareparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.Customerroles .Customerrolesparagraph .SalesOperations{
+    line-height: 30px;
+}
+
+.Customerroles .Customerrolesparagraph .SalesOperations .SalesOperationsheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.Customerroles .Customerrolesparagraph .SalesOperations .SalesOperationsparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+
+.IT{
+    border-style:solid;
+    border-width: thin;
+    border-color: rgb(226, 226, 226);
+    line-height: 27px;
+    padding: 20px 25px 20px 40px ;
+    margin: 100px 720px 150px 160px;
+}
+
+.IT .ITheader{
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.IT .ITparagraph{
+    color: gray;
+}
+
+.IT .ITbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-size: 12px;
+    padding: 15px 20px 15px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 15px 0 15px 0;
+}
+
+.Technologyroles .Technologyrolesheader{
+    text-align: center;
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Technologyroles .Technologyrolesparagraph{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 200px 200px;
+    margin: 40px 0 150px 200px;
+}
+
+.Technologyroles .Technologyrolesparagraph .ITrole{
+    line-height: 30px;
+}
+
+.Technologyroles .Technologyrolesparagraph .ITrole .ITroleheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.Technologyroles .Technologyrolesparagraph .ITrole .ITroleparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.Technologyroles .Technologyrolesparagraph .Product{
+    line-height: 30px;
+}
+
+.Technologyroles .Technologyrolesparagraph .Product .Productheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.Technologyroles .Technologyrolesparagraph .Product .Productparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.Technologyroles .Technologyrolesparagraph .Design{
+    line-height: 30px;
+}
+
+.Technologyroles .Technologyrolesparagraph .Design .Designheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.Technologyroles .Technologyrolesparagraph .Design .Designparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.Technologyroles .Technologyrolesparagraph .UserExperience{
+    line-height: 30px;
+}
+
+.Technologyroles .Technologyrolesparagraph .UserExperience .UserExperienceheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.Technologyroles .Technologyrolesparagraph .UserExperience .UserExperienceparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+
+.finance{
+    border-style:solid;
+    border-width: thin;
+    border-color: rgb(226, 226, 226);
+    line-height: 27px;
+    padding: 20px 25px 20px 40px ;
+    margin: 100px 720px 150px 160px;
+}
+
+.finance .financeheader{
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.finance .financeparagraph{
+    color: gray;
+}
+
+.finance .financebutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-size: 12px;
+    padding: 15px 20px 15px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 15px 0 15px 0;
+}
+
+.adminroles .adminrolesheader{
+    text-align: center;
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.adminroles .adminrolesparagraph{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 200px 200px;
+    margin: 40px 0 0px 200px;
+}
+
+.adminroles .adminrolesparagraph .financerole{
+    line-height: 30px;
+}
+
+.adminroles .adminrolesparagraph .financerole .financeroleheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.adminroles .adminrolesparagraph .financerole .financeroleparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.adminroles .adminrolesparagraph .administrationrole{
+    line-height: 30px;
+}
+
+.adminroles .adminrolesparagraph .administrationrole .administrationroleheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.adminroles .adminrolesparagraph .administrationrole .administrationroleparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+
+.HR{
+    border-style:solid;
+    border-width: thin;
+    border-color: rgb(226, 226, 226);
+    line-height: 27px;
+    padding: 20px 25px 20px 40px ;
+    margin: 100px 720px 150px 160px;
+}
+
+.HR .HRheader{
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.HR .HRparagraph{
+    color: gray;
+}
+
+.HR .HRbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-size: 12px;
+    padding: 15px 20px 15px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 15px 0 15px 0;
+}
+
+.HRmore .HRmoreheader{
+    text-align: center;
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.HRmore .HRmoreparagraph{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 200px 200px;
+    margin: 40px 0 40px 200px;
+}
+
+.HRmore .HRmoreparagraph .HRrole{
+    line-height: 30px;
+}
+
+.HRmore .HRmoreparagraph .HRrole .HRroleheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.HRmore .HRmoreparagraph .HRrole .HRroleparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.HRmore .HRmoreparagraph .anythingrole{
+    line-height: 30px;
+}
+
+.HRmore .HRmoreparagraph .anythingrole .anythingroleheader{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}
+
+.HRmore .HRmoreparagraph .anythingrole .anythingroleparagraph{
+    font-size: 13px;
+    color: gray;
+}
+
+.peopleabout .peopleaboutheader{
+    text-align: center;
+    color: #0edabe;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.peopleabout .testimonial1{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 60px 0;
+}
+
+
+.peopleabout .testimonial1 .testimonial1paragraph{
+    display: flex;
+    align-self: center;
+    color: gray;
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 60px;
+
+}
+
+.peopleabout .testimonial2{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 120px 0;
+}
+
+
+.peopleabout .testimonial2 .testimonial2paragraph{
+    display: flex;
+    align-self: center;
+    color: gray;
+    font-size: 15px;
+    line-height: 30px;
+    margin-right: 60px;
+
+}
+
+.Seemore p{
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    font-size: 30px;
+    font-weight: lighter ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(230, 245, 247);
+    padding: 40px 0 40px 0;
+    margin: 0 220px 100px 220px;
+}
+
+/*footer*/
+
+.footer{
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: rgb(231, 231, 231);
+    border-top-width: thin;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.footer .footerlist li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer .footerlist li a{
+    text-decoration: none;
+}

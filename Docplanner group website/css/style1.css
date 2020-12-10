@@ -1,0 +1,711 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+     
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*header*/
+
+header{
+    background-color:white ;
+    position:sticky;
+    top:0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px 50px 180px;
+    
+}
+
+.navbar .navbarlist li {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+
+
+.navbar .navbarlist  li a {
+    color:rgb(190, 190, 190);
+    font-size: 15px;
+    font-weight: 550;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+
+.navbar .navbarlist .departmentsli ul li {
+   display:flex;
+   flex-direction: column;
+   display: none;
+   text-align: left;
+   line-height: 40px;
+}
+
+.navbar .navbarlist .departmentsli:hover ul li {
+    display: list-item;
+    
+}
+
+
+/*section*/
+
+.About .mainimg {
+    display: block;
+    margin:0 auto;
+}
+
+.About .title{
+    text-align: center;
+    color: #00b39b;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.About .paragraph {
+    display: flex;
+    flex-direction: row;
+    margin:0 200px 0 200px;
+    line-height: 30px;
+    color: gray;
+}
+
+.About .boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 60px 50px 60px;
+    
+}
+
+.About .boxes .patients{
+    background-color: #0edabe;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 10px 0 60px;
+    vertical-align: middle;
+    border-radius: 10px ;
+}    
+
+.About .boxes .patients .patientsheader{
+    margin: 40px 60px 25px 30px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.About .boxes .patients .patientsparagh{
+    margin: auto 60px 80px 30px;
+    line-height: 30px;
+}
+
+.About .boxes .patients .patientsbutton{
+    margin: auto 60px 50px 30px;
+    background-color: #0edabe;
+    color: white;
+    border-style: hidden;
+    text-decoration-line: underline;
+    font-size: 18px;
+}
+
+.About .boxes .doctors{
+    background-color: #4a85f3;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 10px 0 10px;
+    vertical-align: middle;
+    border-radius: 10px ;
+}    
+
+.About .boxes .doctors .doctorsheader{
+    margin: 40px 60px 25px 30px;
+    font-size: 25px;
+    font-weight: 200;
+    
+}
+
+.About .boxes .doctors .doctorsparagraph{
+    margin: auto 60px 80px 30px;
+    line-height: 30px;
+}
+
+.About .boxes .doctors .doctorsbutton{
+    margin: auto 60px 50px 30px;
+    background-color: #4a85f3;
+    color: white;
+    border-style: hidden;
+    text-decoration-line: underline;
+    font-size: 18px;
+}
+
+.About .boxes .clinics{
+    background-color: #162733;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 10px 0 10px;
+    vertical-align: middle;
+    border-radius: 10px ;
+}    
+
+.About .boxes .clinics .clinicsheader{
+    margin: 40px 20px 25px 30px;
+    font-size: 25px;
+    font-weight: 200;
+    
+}
+
+.About .boxes .clinics .clinicsparagraph{
+    margin: auto 20px 80px 30px;
+    line-height: 30px;
+}
+
+.About .boxes .clinics .clinicsbutton1{
+    margin: auto 20px 20px 30px;
+    background-color: #162733;
+    color: white;
+    border-style: hidden;
+    text-decoration-line: underline;
+    font-size: 18px;
+}
+
+.About .boxes .clinics .clinicsbutton2{
+    margin: auto 20px 50px 30px;
+    background-color: #162733;
+    color: white;
+    border-style: hidden;
+    text-decoration-line: underline;
+    font-size: 18px;
+}
+
+.culture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.culture .cultureparagraph{
+    color: #08ceb3;
+    font-size: 30px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 35px;
+}
+
+.culture .cultureicons {
+    display: flex;
+    align-items: center;
+}
+
+.healthcareplatform{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-around;
+    margin: 70px 120px 70px 120px;
+    
+}
+
+.healthcareplatform .healthcareplatformhp{
+    display: flex;
+    flex-direction: column;
+}
+
+.healthcareplatform .healthcareplatformhp .healthcareplatformheader{
+    color: #08ceb3;
+    font-size: 35px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 45px;
+}
+
+.healthcareplatform .healthcareplatformhp .healthcareplatformparagraph{
+    line-height: 25px;
+    color: gray;
+}
+
+.healthcareplatform .healthcareplatformboxes{
+    display: flex;
+    align-content: center;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes1{
+    padding: 30px 0 60px 0;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes1 .leader{
+    margin: 0 40px 40px 0;
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes1 .leader .leaderimg{
+    display: block;
+    margin:0 auto;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes1 .leader .leaderheader{
+    text-align: center;
+    color: #08ceb3;
+    font-size: 25px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes1 .leader .leaderparagraph{
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes1 .uniquepatients{
+    margin: 0 40px 40px 0;
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    border-radius: 10px;
+    padding: 50px 30px 50px 30px;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes1 .uniquepatients .uniquepatientsimg{
+    display: block;
+    margin:0 auto;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes1 .uniquepatients .uniquepatientsheader{
+    text-align: center;
+    color: #08ceb3;
+    font-size: 25px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes1 .uniquepatients .uniquepatientsparagraph{
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes2 .appointments{
+    margin: 0 40px 40px 0;
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    border-radius: 10px;
+    padding: 30px 45px 30px 45px;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes2 .appointments .appointmentsimg{
+    display: block;
+    margin:0 auto;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes2 .appointments .appointmentsheader{
+    text-align: center;
+    color: #08ceb3;
+    font-size: 25px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes2 .appointments .appointmentsparagraph{
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes2 .activedoctors{
+    margin: 0 40px 40px 0;
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    border-radius: 10px;
+    padding: 32px 45px 35px 45px;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes2 .activedoctors .activedoctorsimg{
+    display: block;
+    margin:0 auto;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes2 .activedoctors .activedoctorsheader{
+    text-align: center;
+    color: #08ceb3;
+    font-size: 25px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.healthcareplatform .healthcareplatformboxes .healthcareplatformboxes2 .activedoctors .activedoctorsparagraph{
+    color: gray;
+    font-size: 13px;
+    text-align: center;
+}
+
+.improve .improveheader{
+    text-align: center;
+    color: #08ceb3;
+    font-size: 35px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 45px;
+}
+    
+.improve .improveparagraph{
+    color: gray;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.improve .improveboxes{
+   margin: 80px 0 80px 0;
+    
+}
+
+.improve .improveboxes .improveboxes1{
+    display: inline;
+    display: flex;
+    justify-content: center;
+
+}
+
+.improve .improveboxes .improveboxes2{
+    display: inline;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.improve .improveboxes .improveboxes3{
+    display: inline;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.warsaw {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 30px 30px 0;
+}
+
+.warsaw .warsawimg{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.warsaw .warsawheader{
+    color: gray;
+    font-size: 20px;
+    font-weight: 400 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+}
+
+.warsaw .warsawbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 18px 0 0 100px;
+    
+}
+
+.warsaw .warsawhb{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+    
+.Barcelona {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 30px 30px 0;
+}
+
+.Barcelona .Barcelonaimg{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.Barcelona .Barcelonaheader{
+    color: gray;
+    font-size: 20px;
+    font-weight: 400 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+}
+
+.Barcelona .Barcelonabutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 18px 0 0 85px;
+    
+}
+
+.Barcelona .Barcelonahb{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.Istanbul {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 0 30px 0;
+}
+
+.Istanbul .Istanbulimg{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.Istanbul .Istanbulheader{
+    color: gray;
+    font-size: 20px;
+    font-weight: 400 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+}
+
+.Istanbul .Istanbulbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 18px 0 0 100px;
+    
+}
+
+.Istanbul .Istanbulhb{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.Rome {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 30px 30px 0;
+}
+
+.Rome .Romeimg{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.Rome .Romeheader{
+    color: gray;
+    font-size: 20px;
+    font-weight: 400 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+}
+
+.Rome .Romebutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 18px 0 0 120px;
+    
+}
+
+.Rome .Romehb{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.Bologna {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 30px 30px 0;
+}
+
+.Bologna .Bolognaimg{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.Bologna .Bolognaheader{
+    color: gray;
+    font-size: 20px;
+    font-weight: 400 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+}
+
+.Bologna .Bolognabutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 18px 0 0 100px;
+    
+}
+
+.Bologna .Bolognahb{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.Curitiba {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 0 30px 0;
+}
+
+.Curitiba .Curitibaimg{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.Curitiba .Curitibaheader{
+    color: gray;
+    font-size: 20px;
+    font-weight: 400 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+}
+
+.Curitiba .Curitibabutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 18px 0 0 100px;
+    
+}
+
+.Curitiba .Curitibahb{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.Mexico-City {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(243, 243, 243);
+    border-radius: 7px;
+    margin: 0 15px 30px 165px;
+}
+
+.Mexico-City .Mexico-Cityimg{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.Mexico-City .Mexico-Cityheader{
+    color: gray;
+    font-size: 20px;
+    font-weight: 400 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+}
+
+.Mexico-City .Mexico-Citybutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 18px 0 0 70px;
+    
+}
+
+.Mexico-City .Mexico-Cityhb{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.interest .interestparagraph{
+    text-align: center;
+    font-size: 30px;
+    font-weight:100 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(53, 51, 51);
+}
+
+.interest .interestbutton{
+    background-color: rgb(0, 147, 205);
+    color: white;
+    font-size: 12px;
+    padding: 15px 20px 15px 20px ;
+    border-radius: 5px;
+    border-style: hidden;
+    margin: 0 0 100px 550px; 
+}
+
+/*footer*/
+
+.footer{
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: rgb(243, 243, 243);
+    border-top-width: thin;
+    padding-top: 20px;
+}
+
+.footer .footerlist li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer .footerlist li a{
+    text-decoration: none;
+}
